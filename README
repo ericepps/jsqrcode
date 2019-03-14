@@ -1,3 +1,10 @@
+Use create-database.php to generate the SQLite database.
+
+Once database is created, visit index.html to select a mode (scan in/out, check in at convention).
+
+Use show-count.php to display currently scanned in/out/present and required quorum(s).
+
+-------
 JavaScript QRCode reader for HTML5 enabled browser.
 2011 Lazar Laszlo  http://lazarsoft.info
 
