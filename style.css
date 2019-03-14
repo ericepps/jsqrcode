@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+section { font-family:Roboto; }
+.actions ul,
+.cameras ul { 
+    list-style-type:none; 
+    margin:none; 
+    padding:0px; 
+}
+.actions ul li,
+.cameras ul li { 
+	display:inline-block;
+}
+.actions ul li a:link, 
+.actions ul li a:visited,
+.cameras ul li span {
+    padding: .5em 1em;
+    display: inline-block;
+    background:rgba(0,0,0,.75);
+    margin-bottom:.5em;
+    color:#fff;
+    text-decoration:none;
+}
+.actions ul li a:hover,
+.actions ul li a.active,
+.cameras ul li span.active {
+    background:rgba(249,211,52,.8);
+	color:#666;
+}
+.scans { display:none; }
